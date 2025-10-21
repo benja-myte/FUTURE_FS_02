@@ -1,73 +1,36 @@
-# Welcome to your Lovable project
+# 🛒 FUTURE_FS_02: Mini E-Commerce Storefront - Herbal Harmony Shop
 
-## Project info
+## 🎯 Task Overview
+This project is **Task 2** of the Full Stack Web Development Internship (Track Code: **FS**) with Future Interns.
 
-**URL**: https://lovable.dev/projects/1d0d35cd-c4dd-4cde-bc6f-f3a8d8cb2d7d
+The objective was to develop a functional mini e-commerce platform demonstrating core shopping functionalities, robust state management, and a simplified checkout process.
 
-## How can I edit this code?
+## ✨ Key Features Implemented
 
-There are several ways of editing your application.
+* **Product Catalog:** Displays a variety of items with details, including filtering and search functionality.
+* **Shopping Cart:** Allows users to add, remove, and update quantities of items before checkout, leveraging efficient state management.
+* **WhatsApp Order Flow (Checkout Simulation):** The checkout process simulates order placement by generating a formatted order summary and placing the order directly via the WhatsApp API, fulfilling the "checkout simulation" requirement.
+* **Fully Responsive:** Designed for seamless viewing across all devices.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1d0d35cd-c4dd-4cde-bc6f-f3a8d8cb2d7d) and start prompting.
+## 🛠️ Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+| Component | Technology Used | Rationale |
+| :--- | :--- | :--- |
+| **Frontend** | **[React.js]** | Used for building a responsive, interactive user interface. |
+| **Styling** | **[Tailwind CSS]** | Used for rapid UI development and utility-first classes. |
+| **Backend/Order** | **WhatsApp API** | Used for the checkout simulation, securely transferring the order details without needing a custom database or payment gateway. |
+| **Hosting** | **Netlify** | Used for continuous deployment and hosting the live application. |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🔗 Live Deployment
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The live version of the e-commerce storefront can be viewed here:
+**https://herbal-harmony-shop.netlify.app**
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1d0d35cd-c4dd-4cde-bc6f-f3a8d8cb2d7d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Would you like to move on to **Task 3: Rebrand a Famous Brand's Website Using AI**?
