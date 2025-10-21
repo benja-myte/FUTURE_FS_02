@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nature-inspired herbal business design system with earth tones */
+
+@layer base {
+  :root {
+    /* Earth tone color palette for natural wellness brand */
+    --background: 45 15% 97%;
+    --foreground: 120 15% 15%;
+
+    --card: 45 20% 95%;
+    --card-foreground: 120 15% 15%;
+
+    --popover: 45 20% 95%;
+    --popover-foreground: 120 15% 15%;
+
+    /* Primary: Rich forest green */
+    --primary: 120 25% 25%;
+    --primary-foreground: 45 25% 95%;
+
+    /* Secondary: Warm sage green */
+    --secondary: 105 20% 45%;
+    --secondary-foreground: 45 25% 95%;
+
+    /* Muted: Soft beige */
+    --muted: 35 25% 85%;
+    --muted-foreground: 120 15% 35%;
+
+    /* Accent: Warm golden yellow */
+    --accent: 45 60% 70%;
+    --accent-foreground: 120 25% 15%;
+
+    /* Earth brown tones */
+    --earth-brown: 25 30% 35%;
+    --earth-brown-light: 25 20% 75%;
+    
+    /* Natural greens */
+    --nature-green: 110 40% 40%;
+    --nature-green-light: 110 30% 85%;
+    
+    /* Healing colors */
+    --healing-sage: 105 25% 55%;
+    --healing-mint: 150 25% 75%;
+
+    --destructive: 0 60% 50%;
+    --destructive-foreground: 45 25% 95%;
+
+    --border: 35 20% 80%;
+    --input: 35 15% 88%;
+    --ring: 120 25% 25%;
+
+    /* Beautiful gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--nature-green)), hsl(var(--healing-sage)));
+    --gradient-card: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--accent)), hsl(var(--earth-brown-light)));
+
+    /* Shadows with natural feel */
+    --shadow-soft: 0 4px 20px hsl(var(--nature-green) / 0.1);
+    --shadow-elegant: 0 8px 32px hsl(var(--primary) / 0.15);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 120 15% 8%;
+    --foreground: 45 25% 95%;
+
+    --card: 120 15% 10%;
+    --card-foreground: 45 25% 95%;
+
+    --popover: 120 15% 10%;
+    --popover-foreground: 45 25% 95%;
+
+    --primary: 110 40% 60%;
+    --primary-foreground: 120 15% 8%;
+
+    --secondary: 105 20% 25%;
+    --secondary-foreground: 45 25% 95%;
+
+    --muted: 120 10% 20%;
+    --muted-foreground: 45 15% 70%;
+
+    --accent: 45 60% 60%;
+    --accent-foreground: 120 15% 8%;
+
+    --earth-brown: 25 25% 55%;
+    --earth-brown-light: 25 15% 25%;
+    
+    --nature-green: 110 35% 55%;
+    --nature-green-light: 110 20% 25%;
+
+    --destructive: 0 60% 50%;
+    --destructive-foreground: 45 25% 95%;
+
+    --border: 120 10% 25%;
+    --input: 120 10% 25%;
+    --ring: 110 40% 60%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
